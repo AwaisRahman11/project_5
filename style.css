@@ -1,0 +1,113 @@
+.container-fluid {
+  padding: 0.2px 0px;
+  width: 95%;
+}
+.navbar{
+    width: 98% !important;
+}
+.navbar-toggler {
+  margin-top: 28px;
+}
+.second {
+  height: 500px;
+}
+.navbar {
+  float: left;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  padding: 0;
+}
+
+.row {
+  height: auto;
+}
+.first img {
+  height: 90px;
+  width: 200px;
+}
+.first {
+  padding: 10px 85px 80px;
+}
+.second {
+  position: relative;
+  background-color: darkslategrey;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 0px 0px 150px;
+}
+.second-img {
+  height: 320px;
+  width: 80%;
+  border-radius: 15px;
+}
+.first h3 {
+  padding-top: 70px;
+  font-size: 38px;
+  font-weight: bold;
+  color: rgba(47, 79, 79, 0.991);
+}
+p {
+  padding-top: 15px;
+  color: rgba(47, 79, 79, 0.874);
+  font-weight: bold;
+  font-size: 15px;
+}
+span {
+  color: rgba(243, 66, 2, 0.797) !important;
+}
+button {
+  border: 1px solid;
+  padding: 10px 35px;
+  color: rgba(255, 255, 255, 0.908);
+  background-color: rgba(243, 66, 2, 0.797);
+  border-radius: 7px;
+  font-size: smaller;
+  font-weight: bold;
+}
+.third {
+  padding: 5% !important;
+  padding-left: 10% !important;
+}
+.fourth {
+  padding: 20px 80px;
+}
+.fourth h4 {
+  padding-top: 100px;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(45, 88, 88);
+}
+.fourth h6 {
+  color: rgba(47, 79, 79, 0.917);
+  font-size: small;
+  font-weight: bold;
+}
+.fa-solid {
+  font-size: 15px;
+  color: rgba(255, 166, 0, 0.778);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(245, 222, 179, 0.899);
+  margin: 10px;
+}
+.image-pos {
+  right: 20%;
+  bottom: -5%;
+  position: absolute;
+  height: 400px;
+  width: 70%;
+  border-radius: 10px;
+}
+.active {
+  font-size: medium;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.922) !important;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    background-color: rgb(20, 20, 19) !important;
+    text-align: center;
+  }
+}
